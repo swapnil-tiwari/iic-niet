@@ -1,0 +1,251 @@
+body
+{
+    margin: 0px;
+    padding: 0px;
+    overflow-y:auto;
+    overflow-x:hidden; 
+}
+a:hover {
+    text-decoration: none;
+}
+.fab {
+    font-size: 30px !important;
+}
+.overlay
+{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    background: black;
+    z-index:999;
+
+}
+.surface_1
+{
+    box-shadow: 0 4px 8px 2px rgba(0, 0, 0, 0.2);
+}
+.loader
+{
+    align-self: center;
+    justify-self: center;
+}
+.main-cont
+{
+    width: fit-content;
+    height: fit-content;
+}
+.nav-bar
+{
+    color: white;
+    width: 100vw;
+    padding: 10px;
+    padding-left:15px;
+    padding-right:20px;  
+    height: fit-content;
+    background:black;
+    display: grid;
+    grid-template-columns: 0.2fr auto 0.3fr;
+}
+.logo-img
+{
+    width:13vmin;
+    height: auto;
+}
+.logo{
+    align-self: center;
+}
+.niet-title
+{
+    align-self: center;
+}
+.header
+{
+    font-family: 'Quicksand', sans-serif;
+     width: fit-content;
+
+}
+.header span
+{
+    float: right ;
+}
+.header h1
+{
+    font-size: 3vw;
+}
+.mic-title
+{
+    font-family: 'Quicksand', sans-serif;
+   
+    font-size: 10px;
+}
+.mic-span-cont
+{
+    text-align: center;
+}
+.cont
+{
+    width: 80%;
+    margin: auto;
+}
+.headings
+{
+    width: fit-content;
+    margin: auto;
+}
+.iic-content
+{
+    padding: 30px;
+   
+    text-align: justify;
+}
+.iic-content p
+{
+    font-size: 20px;
+}
+.idea-header img
+{
+    width: 60px;
+    
+}
+.idea-header
+{
+    display: grid;
+    grid-template-columns: 0.25fr auto;
+    padding-left: 20px;
+    padding-right:20px;
+    grid-template-columns: 0.3fr 0.7fr;
+    width:60%;
+    margin: auto;
+}
+.idea-header span{
+    text-align: center;
+    
+}
+.idea-header h2
+{
+    height: fit-content;
+    align-self: center;
+}
+}
+.headings h1
+{
+    font-size: 8vmin;
+} 
+.idea-content
+{
+    width: 100%;
+    padding: 10px;
+    text-align: justify;
+    padding-right:25px;
+    padding-left:25px;  
+}
+.idea-content p
+{
+    font-size:20px;
+}
+.idea-content ul
+{
+    font-weight: bold;
+    font-size:20px;
+}
+.jury-header
+{
+    width: fit-content;
+    margin:auto;
+    text-align: center;
+}
+.card {
+    box-shadow: 0 4px 8px 2px rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+  }
+  .card img{
+      height: 250px;
+  }
+  
+  .title {
+    color: grey;
+    font-size: 18px;
+  }
+  
+  a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+  }
+  
+  .jur-row
+  {
+      margin: 0px !important;
+  }
+  .event
+  {
+      font-size:25px;
+  }
+  .event-details-card
+  {
+    background: #0496ff;
+    text-align: center;
+    padding: 20px;
+    height: 270px;
+  }
+  .event p{
+      font-size:30px;
+  }
+  hr
+  {
+      width: 80% !important;
+      border-color:#c7bbbb !important;
+  }
+  .footer
+  {
+      display: grid;
+      width: 100%;
+      background: black;
+      height: 100px;
+  }
+  .footer span
+  {
+    height: fit-content;
+    width: fit-content;
+    justify-self: center;
+    align-self: center;
+    font-size: 15px;
+    color: white;
+  }
+  .footer span fa {
+      color: black !important;
+  }
+@media only screen and (max-width: 480px) {
+    .mic-title{
+        display:none;
+    }
+    .idea-header
+    {
+        width:100%;
+    }
+    .idea-content p {
+        font-size:18px; 
+    }
+    .iic-content p 
+    {
+        font-size: 18px;
+    }
+    .event{
+        width: 80% !important;
+    }
+   .headings h1 {
+       font-size: 25px;
+   }
+   .idea-header h2 {
+       font-size: 25px;
+   }
+   .jury-header h2 {
+       font-size:25px;
+   }
+
+  }
+

@@ -264,6 +264,9 @@ a:hover {
    .jury-header h2 {
        font-size:25px;
    }
+   .event-details-card{
+       height: fit-content;
+   }
 
   }
 

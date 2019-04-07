@@ -24,7 +24,7 @@
     <div class="overlay" id="overlayer">
         <img class='loader' src ="./img/load.svg">
     </div> 
-    <div class="main-cont">
+    <div class="main-cont" id="main-cont" style="display:none;">
         <div class="nav-bar">
             <span class="logo">
                 <img src="./img/niet_logo.png" class="logo-img">
@@ -246,5 +246,6 @@
     $(window).on('load', (function () {
         $(".loader").delay(2000).fadeOut("slow");
         $("#overlayer").delay(2000).fadeOut("slow");
+        $("#main-cont").delay(2010).fadeIn("slow");
     }));
 </script>
